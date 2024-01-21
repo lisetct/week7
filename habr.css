@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.class1 {
+    background-color: aqua;
+}
+.class2 {
+    background-color: antiquewhite;
+}
+.class3 {
+    background-color: rgb(207, 98, 192);
+}
+.class4 {
+    background-color: rgb(162, 144, 237);
+}
+.class5 {
+    background-color: rgb(204, 229, 121);
+}
+.class6 {
+    background-color: rgb(239, 144, 144);
+}
